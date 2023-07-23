@@ -5,7 +5,7 @@ class Test(unittest.TestCase):
     accInfo = AccountClass.account()
 
     def test_check_password_length(self):
-        print("Checking possible passwords\n")
+        print("Checking Normal possible passwords\n")
         passwordList = [ 'abc', 'abeautifulday', 'astrictboss', 'alovelyhouse' ]
 
         for passwd in passwordList:
